@@ -1,0 +1,25 @@
+package Tablet;
+
+/**
+ *
+ * @author CHUA WEE CHAN 271948
+ */
+public class Tablet3 {
+    String Brand;
+    String OperatingSystem;
+    int Year;
+    String Size;
+    
+    void printGalaxyTabActive(){
+        Brand="Samsung";
+        OperatingSystem="Android";
+        Year=2020;
+        Size="8inch";
+        
+        System.out.println("The brand of the Galaxy Tab Active is "+Brand);
+        System.out.println("The operating system of the Galaxy Tab Active is "+OperatingSystem);
+        System.out.println("The release year of the Galaxy Tab Active is "+Year);
+        System.out.println("The size of the Galaxy Tab Active is "+Size);
+    }
+        
+}
