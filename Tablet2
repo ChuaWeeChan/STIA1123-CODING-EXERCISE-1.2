@@ -1,0 +1,25 @@
+package Tablet;
+
+/**
+ *
+ * @author CHUA WEE CHAN 271948
+ */
+public class Tablet2 {
+    String Brand;
+    String OperatingSystem;
+    int Year;
+    String Size;
+    
+    void printMatePad(){
+        Brand="Huawei";
+        OperatingSystem="EMUI";
+        Year=2019;
+        Size="245.2mm X 155mm";
+        
+        System.out.println("The brand of the MatePad is "+Brand);
+        System.out.println("The operating system of the MatePad is "+OperatingSystem);
+        System.out.println("The release year of the MatePad is "+Year);
+        System.out.println("The size of the MatePad is "+Size);
+        
+    }
+}
