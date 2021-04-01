@@ -7,17 +7,17 @@ package Tablet;
 public class Main {
     public static void main(String[] args) {
         
-        Tablet1 Ipad = new Tablet1();//create new object name as Ipad.
+        Tablet Ipad = new Tablet();//create new object name as Ipad.
         Ipad.printIpad();
         
         System.out.println(""); //empty line
         
-        Tablet2 MatePad = new Tablet2(); //create new object name as MatePad.
+        Tablet MatePad = new Tablet(); //create new object name as MatePad.
         MatePad.printMatePad();
         
         System.out.println(""); //empty line
         
-        Tablet3 GalaxyTabActive = new Tablet3(); //create new object name as Galaxy Tab Active
+        Tablet GalaxyTabActive = new Tablet(); //create new object name as Galaxy Tab Active
         GalaxyTabActive.printGalaxyTabActive();
     }
     
